@@ -1,17 +1,17 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0;    
     /* box-sizing: border-box; */
 }
 
 body{
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 nav{
-    color: white;
+     
     background-color: rgb(78, 75, 75);
     min-height: 100px;
     position: center;
@@ -21,10 +21,15 @@ nav ul {
     display:inline-flex;
 }
 
-nav ul li {
+nav ul  {
     width: 120px;
     margin: 15px;
     padding: 10px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: rgb(163, 162, 162);
 }
 /* header nav ol li{
     margin: 0;
@@ -33,12 +38,40 @@ nav ul li {
     margin: 10px; 
 } */
 
+nav span{
+    margin: 0;
+    padding: 0;
+    float:left;
+    margin-left: 200px; 
+    margin-top: 15px;
+}
+
+aside div{
+    float:left; 
+    margin-left: 12rem;
+     
+}
+
+aside span{
+    float:left;  
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+aside p {
+    float:right; 
+    margin-right: 12rem;
+}
+
+
 article{
     width: 30%;
     float: right;
     padding-right: 130px;
     margin-right: 110px;
-    /* float: none; */
+    margin-top: 30px;
+    
+    
     /* font-style: italic; */
 }
 
@@ -52,7 +85,9 @@ article p{
     font-family:unset;
     text-align: left;
     color: rgb(102, 102, 102);
-    overflow: hidden;
+    margin-bottom: 30px;
+    
+    /* overflow: hidden; */
 }
 
 
@@ -64,6 +99,7 @@ article button {
     height: 30px;
     float: left;
     transition-duration: 350ms;
+    margin-bottom: 30px;
     
 }
 
@@ -72,16 +108,18 @@ background-color: #3e8e41
 
 }
 
-span{
+section span{
 position:sticky; 
-margin-left: 180px;
-
-   
+margin-left: 190px;  
+margin-top: 50px;
 }
+
+
 
 footer {
     background-color: rgb(78, 75, 75);
-    padding: 50px;
-    text-align: center;
-    
+    width: 100%; 
+    padding: 5rem;
+    position: relative;
+    clear: both;
 }
